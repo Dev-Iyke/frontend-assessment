@@ -23,7 +23,6 @@ const EducationForm: React.FC = () => {
     setLoading(true);
     e.preventDefault();
     setTimeout(() => {
-      alert('Form Submitted')
       setLoading(false)
       setShowCongrats(true)
     },2000)
