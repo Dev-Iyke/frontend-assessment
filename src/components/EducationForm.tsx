@@ -32,7 +32,7 @@ const EducationForm: React.FC = () => {
 
   return (
     <>
-    {showCongrats ? <div className="bg-white w-[90%] sm:w-[80%] max-w-[600px] py-10 px-6 rounded-2xl flex flex-col gap-4">
+    {!showCongrats ? <div className="bg-white w-[90%] sm:w-[80%] max-w-[600px] py-10 px-6 rounded-2xl flex flex-col gap-4">
       {/* Dummy progress bar */}
       <div className="flex gap-6 justify-between">
         <span className="h-2 w-full rounded-sm bg-[#0256B2]"></span>
