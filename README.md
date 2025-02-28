@@ -1,16 +1,97 @@
-As the next step in our selection process, we would like to invite you to complete an assessment to evaluate your technical skills and suitability for the role. Please find the details below:
+# Education Form and Congratulations Card
 
-Assessment Details:
-Deadline: 28th February 2025 at Noon
-Instructions: As you work on your frontend assessment, please ensure that your implementation aligns with the following coding principles:
-✅ Scalable Code – Write clean, efficient, and modular code that supports future improvements.
-✅ Proper Documentation – Clearly document your code structure, logic, and key functionalities.
-✅ Meaningful Comments – Add concise and relevant comments to enhance code readability and maintainability.
-✅ Adequate UI Implementation – Ensure a well-structured, visually appealing, and responsive user interface that meets design expectations.
+## 🚀 Overview
 
-Your assessment will be evaluated based on how well you incorporate these principles. Looking forward to your submission!
+This project is a React + TypeScript web application built using Vite, showcasing an interactive education form and a congratulatory card component. The form collects user education details and rewards them with points upon completion.
 
-Please submit with the hosted link and also the link to your github repository.
+## 📦 Tech Stack
 
-Access Link: https://www.figma.com/design/x4g4gWBDeS2bZo89x2KEfi/FrontEnd-Task?node-id=0-1&t=cSykHBjdLUSBOam2-1
-Kindly complete and submit your assessment by the specified deadline. If you have any questions or encounter any issues, please feel free to reach out.
+- **Framework:** React 19 (Vite)
+- **Language:** TypeScript
+- **Styling:** TailwindCSS
+- **State Management:** React's useState hook
+
+## ✨ Features
+
+- **Education Form:** Collects user information — institution, academic level, field of study, GPA, and area of interest.
+- **Loading Indicator:** Simulates an API request with a loading spinner.
+- **Congratulations Card:** Displays a success message after form submission.
+
+## 🏗️ Project Structure
+
+```
+/src
+├── components
+│   ├── EducationForm.tsx
+│   ├── CongratulationsCard.tsx
+│   └── Loader.tsx
+├── types
+│   └── index.ts
+├── pages
+│   └── Home.tsx
+└── App.tsx
+```
+
+## 🧩 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Dev-Iyke/frontend-assessment.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd education-form
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the development server:
+
+```bash
+npm run dev
+```
+
+5. Open your browser at:
+
+```
+http://localhost:5173
+```
+
+## 🧪 Usage
+
+- **Submit the Form:** Fill in the education form fields and click "Continue".
+- **View Congratulations Card:** After submission, a congratulatory message appears.
+- **Skip:** The "Skip for Now" button allows users to bypass the form.
+
+## 📚 Code Explanation
+
+### **EducationForm Component**
+
+Manages form inputs, handles state, and simulates form submission.
+
+### **CongratulationsCard Component**
+
+- Displays a congratulatory message showing earned WESPoints.
+- Highlights unlocked rewards and invites users to take the ESA.
+
+## 📄 Contributing
+
+Contributions are welcome! To suggest improvements:
+
+1. Fork the repository.
+2. Create a new branch (`feat/awesome-feature`).
+3. Commit your changes.
+4. Submit a pull request.
+
+## 📧 Contact
+
+For inquiries or feedback, reach out via email: [obasiikechukwu761@gmail.com]
+
+---
